@@ -25,7 +25,7 @@ button.addEventListener('click', () => {
 
 	if (0 > myNumber.value || myNumber.value > 15) {
 		myNumber.value = 'password length must be between 1 to 15';
-		error.innerHTML = 'password length must be between 1 to 15';
+		guessedNum.innerHTML = ' must be between 1 to 15';
 	}
 });
 
